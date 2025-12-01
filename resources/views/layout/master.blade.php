@@ -50,9 +50,9 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="owl-carousel header-carousel animated fadeIn">
-                        <img class="img-fluid" src="img/hero-slider-1.jpg" alt="">
-                        <img class="img-fluid" src="img/hero-slider-2.jpg" alt="">
-                        <img class="img-fluid" src="img/hero-slider-3.jpg" alt="">
+                        <img class="img-fluid" src="iStudio-1.0.0/img/hero-slider-1.jpg" alt="">
+                        <img class="img-fluid" src="iStudio-1.0.0/img/hero-slider-2.jpg" alt="">
+                        <img class="img-fluid" src="iStudio-1.0.0/img/hero-slider-3.jpg" alt="">
                     </div>
                 </div>
             </div>
