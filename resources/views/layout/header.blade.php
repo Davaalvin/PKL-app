@@ -1,8 +1,10 @@
-<div class="container-fluid sticky-top">
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white">
                 <a href="index.html" class="navbar-brand">
-                    <h1>iSTUDIO</h1>
+                    <h1>KOPERASI</h1>
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -11,8 +13,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="{{ route('simpanan') }}" class="nav-item nav-link">Simpanan</a>
+                        <a href="{{ route('pinjaman') }}" class="nav-item nav-link">Pinjaman</a>
                         <a href="project.html" class="nav-item nav-link">Projects</a>
                         <div class="nav-item dropdown">
                             <a href="#!" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -29,3 +31,4 @@
             </nav>
         </div>
     </div>
+    <!-- Navbar End -->
